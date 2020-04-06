@@ -8,7 +8,7 @@ Two functions so far:
 
 example:
 
->>> bitcoin_blockchain_parser.parsefile("/var/tmp/blkchn/blk00000.dat")
+>>> k = bitcoin_blockchain_parser.parsefile("/var/tmp/blkchn/blk00000.dat")
 index out of range
 
 2. parseblock - input list of blocks, output parses first layer in the list [[network magic],[size],[header],[numnber tx],[tx]]
