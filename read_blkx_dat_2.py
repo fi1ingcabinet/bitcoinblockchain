@@ -1,4 +1,4 @@
-
+#asdf
 def parsefile():
    #Open the blk file
 
